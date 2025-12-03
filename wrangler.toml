@@ -1,0 +1,24 @@
+name = "zwanski-cf-worker"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+env = "production"
+
+# Routes and triggers
+routes = [
+  { pattern = "api.zwanski.tech/*", zone_name = "zwanski.tech" }
+]
+
+# Build command
+build = { command = "npm install" }
+
+# Compatibility flags
+compatibility_flags = ["nodejs_compat"]
+
+# KV Namespaces (optional, for caching)
+kv_namespaces = [
+  { binding = "CACHE", id = "default_kv_id" }
+]
+
+# Environment variables
+vars = { ENVIRONMENT = "production" }

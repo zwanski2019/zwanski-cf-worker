@@ -1,0 +1,19 @@
+{
+  "name": "zwanski-cf-worker",
+  "version": "1.0.0",
+  "description": "Zwanski Tech — Cloudflare Workers API platform. High-performance, edge-deployed tools for security, performance and privacy.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "echo 'No build step required for Workers'",
+    "test": "echo 'Add tests here'"
+  },
+  "dependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "devDependencies": {},
+  "author": "Zwanski Tech",
+  "license": "MIT"
+}
