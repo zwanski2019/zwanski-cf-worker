@@ -11,9 +11,9 @@
     "test": "echo 'Add tests here'"
   },
   "dependencies": {
+    "itty-router": "^5.0.22",
     "wrangler": "^3.0.0"
   },
-  "devDependencies": {},
   "author": "Zwanski Tech",
   "license": "MIT"
 }
